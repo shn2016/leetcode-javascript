@@ -41,5 +41,23 @@
  * @return {string}
  */
 var longestCommonPrefix = function(strs) {
-    
+  // return empty when there is nothing
+  if(strs.length === 0) return "";
+
+  //start with the min length string, then decrease to its substring
+  const lengths = strs.map(x => x.length);
+  const min = Math.min.apply(null, lengths);
+  const minIndex = lengths.indexOf(min);
+  const minString = strs[minIndex];
+  let result = '';
+
+  for(i=minString.length; i>=0; i--){
+    const prefix = minString.substring(0,i);
+    if(strs.every(str => str.substring(0,i) === prefix)){
+      result = prefix;
+      break;
+    }
+  }
+
+  return result;
 };

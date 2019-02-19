@@ -62,6 +62,10 @@
 /**
  * @param {string} s
  * @return {boolean}
+ * the idea is to find first right brackets
+ * then check its left closed or not
+ * if no return false and break
+ * if yes remove this part from string and cotinue.
  */
 var isValid = function(s) {
   const brackets = ['(', ')', '{', '}', '[' ,']']
@@ -69,58 +73,26 @@ var isValid = function(s) {
   if(length%2 === 1) return false;
 
   let result = true;
-  let leftIndexArray = [];
-
-  for(i = 0; i < length; ){
-    const index = brackets.indexOf(s[i]);
-
-    console.log(i);
-    if(index === -1){  
-      result = false; 
-      break;   
-    }
-    if(index % 2 === 1){
-      //in case the first one doesn't right
-      if(leftIndexArray.length === 0){
-        result = false; 
+  while(s.length>0){
+    for(i = 0; i < s.length; i++ ){
+      const index = brackets.indexOf(s[i]);
+      if(index % 2 === 1){
+        if( (s[i-1] === undefined) | (brackets.indexOf(s[i-1]) !== index - 1) ){ 
+          result = false; 
+          break;
+        }
+        s = s.substring(0,i-1)+s.substring(i+1,s.length);
         break;
       }
-
-      //check the expected one match the real one or not.
-      const expectedArray = [];
-      const rightIndexArray = getRightIndexArray(i, leftIndexArray.length, brackets, s);
-      const leftIndexArrayLength = leftIndexArray.length;
-      for(y=0; y<leftIndexArrayLength; y++){
-        let token = leftIndexArray.pop()+1;
-        expectedArray.push(token);
-      };
-      //[1] === [1]  false;
-      if(expectedArray.toString() !== rightIndexArray.toString()){
-        result = false; 
+      if(i === s.length - 1){ 
+        result = false;      
         break;
       }
-      i += leftIndexArrayLength;
-      leftIndexArray = []; 
-      //empty array, jump to the next i validate next few chars.
-      continue;
     }
-
-    leftIndexArray.push(index);
-    i++;
+    if(result === false){ break;}
   }
-  if(leftIndexArray.length > 0) result = false;
   return result;
-};
-
-function getRightIndexArray( i, length, brackets, s){
-  let rightIndexArray = [];
-  for( y = i; y < length + i; y++){
-    const index = brackets.indexOf(s[y]);
-    rightIndexArray.push(index);
-  }
-  return rightIndexArray;
 }
-
 
 // made mistake for considering "([]){}"  and "([])" solely
 // they could be combined and I cannot simply use for loop 
