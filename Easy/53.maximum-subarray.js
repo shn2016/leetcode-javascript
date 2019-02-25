@@ -32,26 +32,36 @@
  * @param {number[]} nums
  * @return {number}
  */
-var maxSubArray = function(nums) {
-    const copy = [...nums];
-    let max = 0;
-    max = nums.reduce(getSum);
-    max = getMax(max, nums,false);
-    max = getMax(max, copy,true);
-    return max;
-};
-function getSum(total, num) {
-  return total + num;
-}
 
-function getMax(max, arr,isPop) {
-  if(isPop){arr.pop();} else { arr.shift()};
-  while(arr.length > 0){
-    const nextSum = arr.reduce(getSum);
-    if(nextSum > max){ 
-      max = nextSum;
-    }
-    if(isPop){arr.pop();} else { arr.shift()};
+var maxSubArray = function(nums) {
+
+  let prev = 0;
+  let max = -Number.MAX_VALUE;
+
+  for (var i = 0; i < nums.length; i++) {
+    // prev is starting for max of sum of two, and then 3 and more;
+    // and comparing with single new number comes up with;
+    prev = Math.max(prev + nums[i], nums[i]);
+    // the only possibility nums[i] is that the prev negative, so it should be aborted
+    max = Math.max(max, prev);
   }
   return max;
-}
+};
+
+  //Below solution is way too time consuming...
+  // if(!nums) return 0;
+  // //let max = Math.max.apply(null,nums);
+  // let max = nums[0];
+
+  // let subNums = [];
+  // for(i=0; i<nums.length; i++){
+  //   // can't set y=1 and condition is y>i and y<= length as it will break at first;
+  //   for (y =i+1; y<= nums.length; y++){
+  //     subNums = nums.slice(i,y);
+  //     const currentSum = subNums.reduce((a,b) => a + b, 0);
+  //     if(currentSum > max) {
+  //       max = currentSum;
+  //     }
+  //   }
+  // }
+  // return max;

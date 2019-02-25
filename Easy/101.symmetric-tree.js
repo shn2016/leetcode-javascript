@@ -53,33 +53,49 @@
  */
 var isSymmetric = function(root) {
   if(root === null) return true;
-  let trees = [root];
+  // make leftBranch store all the nodes on the left;
+  const leftBranch = [];
+  const rightBranch = [];
+  const leftNode = root.left;
+  const rightNode = root.right;
+
+  putNodeToTree(leftNode, leftBranch, 1);
+  putNodeToTree(rightNode, rightBranch, 1);
+
   let result = true;
-  let i = 1;
-  let dummy = [];
 
-  while(trees.length !== 0){
-    const node = trees.shift();
-    
-    if(node.left !== null){
-      dummy.push(node.left);
+  //compare the nodes val in the same level;
+  for(i=1; i<leftBranch.length; i++){
+    const leftLevel = leftBranch[i];
+    const rightLevel = rightBranch[i].reverse();
+
+    if(leftLevel.length !== rightLevel.length || leftLevel.toString() !== rightLevel.toString()){
+      result = false;
+      break;
     }
-
-    if(node.right !== null){
-      dummy.push(node.right);
-    }
-
-    if(trees.length === 0){
-      if(dummy.length !== i){
-        result =false;
-        break;
-      }
-      trees = dummy;
-      dummy = [];
-      i *= 2;
-    }
-
   }
-
   return result;
 };
+
+function putNodeToTree(node, branch, level){
+
+  // create one if empty;
+  if(!branch[level]){
+    branch[level] = [];
+  }
+
+  // put null to the array and will not proceed next level for this node;
+  if(node === null){
+    branch[level].push(null);
+    return;
+  }
+
+  branch[level].push(node.val);
+
+  const leftNode = node.left;
+  const rightNode = node.right;
+  level++;
+
+  putNodeToTree(leftNode, branch, level);
+  putNodeToTree(rightNode, branch, level);
+}
