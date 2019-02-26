@@ -1,3 +1,9 @@
+# Leetcode - Javascript - Easy
+
+Currently working on easy leetcode problems, and I have now finished 25 of them.
+## Recent update
+
+
 | # | Title | Comment |
 |:---:|:---:|:---:|
 | 1  | [two-sum ](1.two-sum.js)| |
