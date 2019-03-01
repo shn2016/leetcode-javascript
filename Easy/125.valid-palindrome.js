@@ -37,13 +37,18 @@
  * @return {boolean}
  */
 var isPalindrome = function(s) {
-    let str = s.replace(/[^a-z0-9]/gi, '').toLowerCase();
-    const length = str.length;
-    const first = str.slice(0, Math.floor(length/2));
-    const second = str.split("").reverse().join("").slice(0, Math.floor(length/2));
-    if(first === second){
-      return true;
-    }
-    return false;
+  //regEx that get only alphanumeric characters, and set in lower case;
+  let str = s.replace(/[^a-z0-9]/gi, '').toLowerCase();
+
+  const length = str.length;
+  const first = str.slice(0, Math.floor(length/2));
+  //change string to array to reverse order, then put back to string and then get the half part
+  const second = str.split("").reverse().join("").slice(0, Math.floor(length/2));
+
+  if(first === second){
+    return true;
+  }
+
+  return false;
 };
 
