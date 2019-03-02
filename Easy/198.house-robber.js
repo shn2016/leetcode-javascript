@@ -45,7 +45,68 @@
  * @param {number[]} nums
  * @return {number}
  */
-var rob = function(nums) {
-    
-};
 
+ //For this idea: https://leetcode.com/problems/house-robber/discuss/156523/From-good-to-great.-How-to-approach-most-of-DP-problems.
+
+ // consider the relationship from top to bottom first;
+ // we can get that rob(i) = Math.max(rob(i-2)+ cur , rob(i-1))
+ // then we can create a method with nums, and i;
+ // but it exceed stack and time consuming;
+ // we can create an array to store the value;
+ // yet it is still a bit worse;
+ // that's why the following two solutions come from;
+
+
+// Iterative + 2 variables (bottom-up)
+var rob = function(nums) {
+  if (nums.length == 0) return 0;
+  let prev1 = 0;
+  let prev2 = 0;
+  nums.forEach(
+    value => {
+      const temp = prev1;
+      prev1 = Math.max(prev2 + value, prev1);
+      prev2 = temp;
+    }
+  )
+  return prev1;
+}
+ // Iterative + memo (bottom-up)
+var fourth = function(nums) {
+  if (nums.length == 0) return 0;
+  const memo = [];
+  memo[0] = 0;
+  memo[1] = nums[0];
+  for ( i = 1; i < nums.length; i++) {
+      const val = nums[i];
+      memo[i+1] = Math.max(memo[i], memo[i-1] + val);
+  }
+  return memo[nums.length];
+}
+
+//bad step 1
+
+var rob1 = function(nums) {
+  return rob1(nums, nums.length - 1);
+}
+function rob1(nums,  i) {
+  if (i < 0) {
+      return 0;
+  }
+  return Math.max(rob(nums, i - 2) + nums[i], rob(nums, i - 1));
+}
+
+var rob2 = function(nums) {
+  const memo = []
+  return rob1(nums, nums.length - 1, memo);
+}
+function rob2(nums,  i) {
+  if (i < 0) {
+      return 0;
+  }
+  if(!!memo[i]){
+    return memo[i];
+  }
+  memo[i] = Math.max(rob(nums, i - 2) + nums[i], rob(nums, i - 1, memo), memo)
+  return  memo[i];
+}

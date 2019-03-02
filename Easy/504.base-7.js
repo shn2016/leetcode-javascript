@@ -53,6 +53,3 @@ var convertToBase7 = function(num) {
     return result;
 };
 
-function loop(num, left, saved, num){
-  
-}

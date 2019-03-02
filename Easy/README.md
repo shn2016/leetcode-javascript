@@ -1,6 +1,6 @@
 # Leetcode - Javascript - Easy
 
-Currently working on easy leetcode problems, and I have now finished 40 of them (almost 285).
+Currently working on easy leetcode problems, and I have now finished 50 of them (almost 285).
 ## Thinking
 
 * Most of answers can be solved by writing for loop or while loop; 
@@ -17,7 +17,7 @@ Currently working on easy leetcode problems, and I have now finished 40 of them 
 | 14 | [ longest-common-prefix ](14.longest-common-prefix.js)| |
 | 20 | [ valid-parentheses ](20.valid-parentheses.js)| |
 | 21 | [ merge-two-sorted-lists ](21.merge-two-sorted-lists.js)| |
-| 26 |[ remove-duplicates-from-sorted-array ](26.remove-duplicates-from-sorted-array.js)| |
+| 26 | [ remove-duplicates-from-sorted-array ](26.remove-duplicates-from-sorted-array.js)| |
 | 27 | [ remove-element ](27.remove-element.js)| |
 | 28 | [ implement-strstr ](28.implement-strstr.js)| |
 | 35 | [ search-insert-position ](35.search-insert-position.js)| |
@@ -42,11 +42,21 @@ Currently working on easy leetcode problems, and I have now finished 40 of them 
 | 119 | [pascals-triangle-ii](119.pascals-triangle-ii.js) ||
 | 121 | [best-time-to-buy-and-sell-stock](121.best-time-to-buy-and-sell-stock.js) ||
 | 122 | [best-time-to-buy-and-sell-stock-ii](122.best-time-to-buy-and-sell-stock-ii.js) ||
+| 125 | [valid-palindrome](125.valid-palindrome.js) ||
 | 136 | [single-number](136.single-number.js)||
 | 141 | [linked-list-cycle](141.linked-list-cycle.js)||
-| 155 | [min-stack](155.min-stack.js)||
+| 155 | [min-stack](155.min-stack.js)| minStack design|
 | 160 | [intersection-of-two-linked-lists](160.intersection-of-two-linked-lists.js)||
 | 167 | [two-sum-ii-input-array-is-sorted](167.two-sum-ii-input-array-is-sorted.js)||
-| 125 | [valid-palindrome](125.valid-palindrome.js) ||
+| 168 | [excel-sheet-column-title](168.excel-sheet-column-title.js)||
+| 169 | [majority-element](169.majority-element.js)||
+| 171 | [excel-sheet-column-number](171.excel-sheet-column-number.js)||
+| 172 | [factorial-trailing-zeroes](172.factorial-trailing-zeroes.js)||
+| 189 | [rotate-array](189.rotate-array.js)||
+| 190 | [reverse-bits](190.reverse-bits.js)| check the unassigned bits in js|
+| 191 | [number-of-1-bits](191.number-of-1-bits.js)||
+| **198** | [house-robber](198.house-robber.js)| Classic question for dp|
 | 504 | [ base-7 ](504.base-7.js)| |
-| 707 | [ design-linked-list ](707.design-linked-list.js) | |
+| 506 | [relative-ranks](506.relative-ranks.js)||
+| 507 | [perfect-number](507.perfect-number.js)||
+| 707 | [ design-linked-list ](707.design-linked-list.js) | Obejct design of linked list |
