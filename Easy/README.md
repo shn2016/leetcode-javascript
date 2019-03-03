@@ -1,11 +1,14 @@
 # Leetcode - Javascript - Easy
 
-Currently working on easy leetcode problems, and I have now finished 50 of them (almost 285).
+Currently working on easy leetcode problems, and I have now finished 56 of them (almost 285).
 ## Thinking
 
 * Most of answers can be solved by writing for loop or while loop; 
+* the key is to optimize the algorithm;
 * Obejects involved are array, string, stack, tree and listNode;
 * There are algorithms I might use, such as O(n), dp or some else, I should do some research about it;
+* Some problems are not supported in Javascript;
+* The plan is to solve 6 to 10 easy problems everyday, and use no more than 20mins for every question.
 
 ## Solution Reference
 | # | Title | Comment |
@@ -59,4 +62,10 @@ Currently working on easy leetcode problems, and I have now finished 50 of them 
 | 504 | [ base-7 ](504.base-7.js)| |
 | 506 | [relative-ranks](506.relative-ranks.js)||
 | 507 | [perfect-number](507.perfect-number.js)||
+| 509 | [fibonacci-number](509.fibonacci-number.js)||
+| 520 | [detect-capital](520.detect-capital.js)||
+| 521 | [longest-uncommon-subsequence-i](521.longest-uncommon-subsequence-i.js)||
+| 530 | [minimum-absolute-difference-in-bst](530.minimum-absolute-difference-in-bst.js)||
+| 532 | [k-diff-pairs-in-an-array](532.k-diff-pairs-in-an-array.js)||
+| 538 | [convert-bst-to-greater-tree](538.convert-bst-to-greater-tree.js)||
 | 707 | [ design-linked-list ](707.design-linked-list.js) | Obejct design of linked list |
