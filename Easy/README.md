@@ -1,13 +1,13 @@
 # Leetcode - Javascript - Easy
 
-Currently working on easy leetcode problems, and I have now finished 56 of them (almost 285).
+Currently working on easy leetcode problems, and I have now finished 60 of them (almost 285), while some problems are not supported in Javascript.
 ## Thinking
 
 * Most of answers can be solved by writing for loop or while loop; 
 * the key is to optimize the algorithm;
 * Obejects involved are array, string, stack, tree and listNode;
 * There are algorithms I might use, such as O(n), dp or some else, I should do some research about it;
-* Some problems are not supported in Javascript;
+* 
 * The plan is to solve 6 to 10 easy problems everyday, and use no more than 20mins for every question.
 
 ## Solution Reference
@@ -59,6 +59,10 @@ Currently working on easy leetcode problems, and I have now finished 56 of them 
 | 190 | [reverse-bits](190.reverse-bits.js)| check the unassigned bits in js|
 | 191 | [number-of-1-bits](191.number-of-1-bits.js)||
 | **198** | [house-robber](198.house-robber.js)| Classic question for dp|
+| 231 | [power-of-two}(231.power-of-two.js)||
+| 232 | [implement-queue-using-stacks}(232.implement-queue-using-stacks.js)| Design a stack first, dont confuse about pop, push among queue stack and array |
+| 234 | [palindrome-linked-list}(234.palindrome-linked-list.js)||
+| 235 | [lowest-common-ancestor-of-a-binary-search-tree}(235.lowest-common-ancestor-of-a-binary-search-tree.js)||
 | 504 | [ base-7 ](504.base-7.js)| |
 | 506 | [relative-ranks](506.relative-ranks.js)||
 | 507 | [perfect-number](507.perfect-number.js)||
