@@ -1,6 +1,6 @@
 # Leetcode - Javascript - Easy
 
-Currently working on easy leetcode problems, and I have now finished 60 of them (almost 285), while some problems are not supported in Javascript.
+Currently working on easy leetcode problems, and I have now finished 65 of them (almost 285), while some problems are not supported in Javascript.
 ## Thinking
 
 * Most of answers can be solved by writing for loop or while loop; 
@@ -59,10 +59,16 @@ Currently working on easy leetcode problems, and I have now finished 60 of them 
 | 190 | [reverse-bits](190.reverse-bits.js)| check the unassigned bits in js|
 | 191 | [number-of-1-bits](191.number-of-1-bits.js)||
 | **198** | [house-robber](198.house-robber.js)| Classic question for dp|
-| 231 | [power-of-two}(231.power-of-two.js)||
-| 232 | [implement-queue-using-stacks}(232.implement-queue-using-stacks.js)| Design a stack first, dont confuse about pop, push among queue stack and array |
-| 234 | [palindrome-linked-list}(234.palindrome-linked-list.js)||
-| 235 | [lowest-common-ancestor-of-a-binary-search-tree}(235.lowest-common-ancestor-of-a-binary-search-tree.js)||
+| 202 | [happy-number](202.happy-number.js)||
+| 203 | [remove-linked-list-elements](203.remove-linked-list-elements.js)||
+| 204 | [count-primes](204.count-primes.js)| should be a better way|
+| 231 | [power-of-two](231.power-of-two.js)||
+| 232 | [implement-queue-using-stacks](232.implement-queue-using-stacks.js)| Design a stack first, dont confuse about pop, push among queue stack and array |
+| 234 | [palindrome-linked-list](234.palindrome-linked-list.js)||
+| 235 | [lowest-common-ancestor-of-a-binary-search-tree](235.lowest-common-ancestor-of-a-binary-search-tree.js)||
+| 237 | [delete-node-in-a-linked-list](237.delete-node-in-a-linked-list.js)| break the ideas|
+| 242 | [valid-anagram](242.valid-anagram.js)||
+| 257 | [binary-tree-paths](257.binary-tree-paths.js)||
 | 504 | [ base-7 ](504.base-7.js)| |
 | 506 | [relative-ranks](506.relative-ranks.js)||
 | 507 | [perfect-number](507.perfect-number.js)||

@@ -62,7 +62,56 @@
  * @param {TreeNode} q
  * @return {TreeNode}
  */
+//Left subtree of a node N contains nodes whose values are lesser than or equal to node N's value.
+//Right subtree of a node N contains nodes whose values are greater than node N's value.
+//Both left and right subtrees are also BSTs.
+
+//84ms
 var lowestCommonAncestor = function(root, p, q) {
-    
+  let parentVal = root.val;
+  const pVal = p.val;
+  const qVal = q.val;
+  if( pVal > parentVal && qVal > parentVal){
+    return lowestCommonAncestor(root.right, p, q);
+  }
+  if( pVal < parentVal && qVal < parentVal){
+    return lowestCommonAncestor(root.left, p, q);
+  } 
+
+  return root;
+}
+//136 ms, the slowest one.
+//when a node has p and q while his children doesn't have both, this is the lowest common ancestor;
+var first = function(root, p, q) {
+  if(!root) return null;
+  const result = [];
+  findResult(root, p , q, result);
+  return result.pop();
 };
 
+function findResult(node, p , q,result){
+  if(ifNodehas(node, p) && ifNodehas(node, q) ){
+    result.push(node);
+  }
+  //IMPORTANT: check something is not null: use !!
+  if(!!node.left){
+    findResult(node.left, p, q, result);
+  }
+  if(!!node.right){
+    findResult(node.right, p, q, result);
+  }
+}
+
+function ifNodehas(node, target){
+  const nodes = [];
+  getNodes(node, nodes);
+  if(nodes.includes(target)) return true; 
+  return false;
+}
+
+function getNodes(node, nodes){
+  if(!node) return;
+  nodes.push(node);
+  getNodes(node.left, nodes);
+  getNodes(node.right, nodes);
+}
