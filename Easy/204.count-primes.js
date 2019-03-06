@@ -29,6 +29,29 @@
 // A number can only be divided by 1 and itself is prime number.
 // it could be better if I can find somewhere to store the primes I tested.
 
+
+
+var countPrimes = function(n) {
+  
+   let isPrime = [];
+   for (let i = 2; i < n; i++) {
+      //assume they are all primes first.
+      isPrime[i] = true;
+   }
+   for (let i = 2; i * i < n; i++) {
+      if (!isPrime[i]) continue;
+      //here the index is same with the value, so j can be got from i *(i+n)
+      for (let j = i * i; j < n; j += i) {
+         isPrime[j] = false;
+      }
+   }
+   let count = 0;
+   for (let i = 2; i < n; i++) {
+      if (isPrime[i]) count++;
+   }
+   return count;
+};
+
 // 20/20 cases passed (800 ms)
 // Your runtime beats 24.93 % of javascript submissions
 // Your memory usage beats 96.97 % of javascript submissions (34.1 MB)
@@ -49,7 +72,7 @@ function isPrime(number){
 
   //there is no 1 and number itself;
   //use sqrt to avoid unnecessary counting;
-  for(y=2; y<=Math.sqrt(number);y++){
+  for(y=2; y * y < number ;y++){
     if(number % y === 0){
       result = false;
       break;
@@ -62,7 +85,7 @@ function isPrime(number){
 //and all the non prime number can be mutiplied by prime numbers;
 
 //228 ms
-var countPrimes = function(n) {
+var second = function(n) {
   let time = 0;
   let collection = [];
   for(i=2; i<n; i++){
@@ -76,12 +99,11 @@ var countPrimes = function(n) {
 function isPrimeNumber(number,collection){
   let result = true;
 
-  for(y=0; y< collection.length && collection[y]<= Math.sqrt(number); y++){
+  for(y=0; y< collection.length && collection[y] <= Math.sqrt(number); y++){
     if(number % collection[y] === 0 ){
       result = false;
       break;
     }
   }
-
   return result;
 }

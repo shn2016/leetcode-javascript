@@ -1,6 +1,6 @@
 # Leetcode - Javascript - Easy
 
-Currently working on easy leetcode problems, and I have now finished 65 of them (almost 285), while some problems are not supported in Javascript.
+Currently working on easy leetcode problems, and I have now finished 71 of them (almost 285), while some problems are not supported in Javascript.
 ## Thinking
 
 * Most of answers can be solved by writing for loop or while loop; 
@@ -62,6 +62,11 @@ Currently working on easy leetcode problems, and I have now finished 65 of them 
 | 202 | [happy-number](202.happy-number.js)||
 | 203 | [remove-linked-list-elements](203.remove-linked-list-elements.js)||
 | 204 | [count-primes](204.count-primes.js)| should be a better way|
+| 205 | [isomorphic-strings](205.isomorphic-strings.js)||
+| 206 | [reverse-linked-list](206.reverse-linked-list.js)||
+| 217 | [contains-duplicate](217.contains-duplicate.js)||
+| 219 | [contains-duplicate-ii](219.contains-duplicate-ii.js)||
+| 258 | [add-digits](258.add-digits.js)||
 | 231 | [power-of-two](231.power-of-two.js)||
 | 232 | [implement-queue-using-stacks](232.implement-queue-using-stacks.js)| Design a stack first, dont confuse about pop, push among queue stack and array |
 | 234 | [palindrome-linked-list](234.palindrome-linked-list.js)||

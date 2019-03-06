@@ -43,6 +43,39 @@
  * @return {string[]}
  */
 var binaryTreePaths = function(root) {
-    
+
+  if(!root) return [];
+
+  let string = root.val.toString();
+  let collection = [];
+
+  //the root doesn't has children
+  if(!root.left && !root.right){
+    collection.push(string);
+  }
+
+  generatingPath(root.left, string, collection)
+  generatingPath(root.right, string, collection)
+  
+
+  return collection;
 };
 
+function generatingPath(node, str, collection){
+  //no such node, return
+  if(!node){ return;};
+
+  //no children node return
+  if(!node.left && !node.right){
+    str += "->"+ node.val;
+    collection.push(str);
+    return;
+  }
+
+  str += "->"+ node.val;
+
+  //the node may has 1 or 2 nodes;
+  generatingPath(node.left, str, collection);
+  generatingPath(node.right, str, collection);
+
+}
