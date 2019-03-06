@@ -1,6 +1,6 @@
 # Leetcode - Javascript - Easy
 
-Currently working on easy leetcode problems, and I have now finished 71 of them (almost 285), while some problems are not supported in Javascript.
+Currently working on easy leetcode problems, and I have now finished 76 of them (almost 285), while some problems are not supported in Javascript.
 ## Thinking
 
 * Most of answers can be solved by writing for loop or while loop; 
@@ -66,7 +66,8 @@ Currently working on easy leetcode problems, and I have now finished 71 of them 
 | 206 | [reverse-linked-list](206.reverse-linked-list.js)||
 | 217 | [contains-duplicate](217.contains-duplicate.js)||
 | 219 | [contains-duplicate-ii](219.contains-duplicate-ii.js)||
-| 258 | [add-digits](258.add-digits.js)||
+| 225 | [implement-stack-using-queues](225.implement-stack-using-queues.js)||
+| 226 | [invert-binary-tree](226.invert-binary-tree.js)||
 | 231 | [power-of-two](231.power-of-two.js)||
 | 232 | [implement-queue-using-stacks](232.implement-queue-using-stacks.js)| Design a stack first, dont confuse about pop, push among queue stack and array |
 | 234 | [palindrome-linked-list](234.palindrome-linked-list.js)||
@@ -74,6 +75,10 @@ Currently working on easy leetcode problems, and I have now finished 71 of them 
 | 237 | [delete-node-in-a-linked-list](237.delete-node-in-a-linked-list.js)| break the ideas|
 | 242 | [valid-anagram](242.valid-anagram.js)||
 | 257 | [binary-tree-paths](257.binary-tree-paths.js)||
+| 258 | [add-digits](258.add-digits.js)||
+| 263 | [ugly-number](263.ugly-number.js)||
+| 268 | [missing-number](268.missing-number.js)||
+| 278 | [first-bad-version](278.first-bad-version.js)| new syntax|
 | 504 | [ base-7 ](504.base-7.js)| |
 | 506 | [relative-ranks](506.relative-ranks.js)||
 | 507 | [perfect-number](507.perfect-number.js)||
