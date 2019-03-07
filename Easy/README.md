@@ -1,6 +1,8 @@
 # Leetcode - Javascript - Easy
 
-Currently working on easy leetcode problems, and I have now finished 82 of them (almost 285), while some problems are not supported in Javascript.
+Currently working on easy leetcode problems, and I have now finished 87 of them (almost 285), while some problems are not supported in Javascript.
+
+I see this repository as learning process is algorithm and my self-improvement;
 
 ## Process
 * The plan is to solve 5 to 10 easy problems everyday, and use no more than 20mins for every question.
@@ -11,6 +13,7 @@ Currently working on easy leetcode problems, and I have now finished 82 of them 
 * the key is to optimize the algorithm;
 * Obejects involved are array, string, stack, tree and listNode;
 * There are algorithms I might use, such as O(n), dp or some else, I should do some research about it;
+* I've been ignoring using concepts such as (foreach, set), should consider more;
 
 
 ## Solution Reference
@@ -88,6 +91,11 @@ Currently working on easy leetcode problems, and I have now finished 82 of them 
 | 303 | [range-sum-query-immutable](303.range-sum-query-immutable.js)||
 | 326 | [power-of-three](326.power-of-three.js)| The result of calculating may not precise some time|
 | 342 | [power-of-four.j](342.power-of-four.js| )| Same with 3|
+| 344 | [reverse-string](344.reverse-string.js)||
+| 345 | [reverse-vowels-of-a-string](345.reverse-vowels-of-a-string.js)||
+| 349 | [intersection-of-two-arrays](349.intersection-of-two-arrays.js)| set is used|
+| 350 | [intersection-of-two-arrays-ii](350.intersection-of-two-arrays-ii.js)||
+| 371 | [sum-of-two-integers](371.sum-of-two-integers.js)| bit manipulation|
 | 504 | [ base-7 ](504.base-7.js)| |
 | 506 | [relative-ranks](506.relative-ranks.js)||
 | 507 | [perfect-number](507.perfect-number.js)||
