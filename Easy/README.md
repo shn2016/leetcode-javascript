@@ -1,14 +1,17 @@
 # Leetcode - Javascript - Easy
 
-Currently working on easy leetcode problems, and I have now finished 76 of them (almost 285), while some problems are not supported in Javascript.
-## Thinking
+Currently working on easy leetcode problems, and I have now finished 82 of them (almost 285), while some problems are not supported in Javascript.
 
+## Process
+* The plan is to solve 5 to 10 easy problems everyday, and use no more than 20mins for every question.
+* `7 March 2019`: While most of easy problems now wont take me long time to figure out, and more concentration is on optimising. I am consideering start some Medium problems now.
+
+## Thinking
 * Most of answers can be solved by writing for loop or while loop; 
 * the key is to optimize the algorithm;
 * Obejects involved are array, string, stack, tree and listNode;
 * There are algorithms I might use, such as O(n), dp or some else, I should do some research about it;
-* 
-* The plan is to solve 6 to 10 easy problems everyday, and use no more than 20mins for every question.
+
 
 ## Solution Reference
 | # | Title | Comment |
@@ -79,6 +82,12 @@ Currently working on easy leetcode problems, and I have now finished 76 of them 
 | 263 | [ugly-number](263.ugly-number.js)||
 | 268 | [missing-number](268.missing-number.js)||
 | 278 | [first-bad-version](278.first-bad-version.js)| new syntax|
+| 283 | [move-zeroes](283.move-zeroes.js)||
+| 290 | [word-pattern](290.word-pattern.js)||
+| 292 | [nim-game](292.nim-game.js)||
+| 303 | [range-sum-query-immutable](303.range-sum-query-immutable.js)||
+| 326 | [power-of-three](326.power-of-three.js)| The result of calculating may not precise some time|
+| 342 | [power-of-four.j](342.power-of-four.js| )| Same with 3|
 | 504 | [ base-7 ](504.base-7.js)| |
 | 506 | [relative-ranks](506.relative-ranks.js)||
 | 507 | [perfect-number](507.perfect-number.js)||
