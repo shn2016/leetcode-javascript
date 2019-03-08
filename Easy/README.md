@@ -1,6 +1,6 @@
 # Leetcode - Javascript - Easy
 
-Currently working on easy leetcode problems, and I have now finished 87 of them (almost 285), while some problems are not supported in Javascript.
+Currently working on easy leetcode problems, and I have now finished 92 of them (almost 285), while some problems are not supported in Javascript.
 
 I see this repository as learning process is algorithm and my self-improvement;
 
@@ -95,6 +95,11 @@ I see this repository as learning process is algorithm and my self-improvement;
 | 345 | [reverse-vowels-of-a-string](345.reverse-vowels-of-a-string.js)||
 | 349 | [intersection-of-two-arrays](349.intersection-of-two-arrays.js)| set is used|
 | 350 | [intersection-of-two-arrays-ii](350.intersection-of-two-arrays-ii.js)||
+| 367 | [valid-perfect-square](367.valid-perfect-square.js)||
+| 383 | [ransom-note](383.ransom-note.js)||
+| 387 | [first-unique-character-in-a-string](387.first-unique-character-in-a-string.js)||
+| 389 | [find-the-difference](389.find-the-difference.js)||
+| 400 | [nth-digit](400.nth-digit.js)| logic|
 | 371 | [sum-of-two-integers](371.sum-of-two-integers.js)| bit manipulation|
 | 504 | [ base-7 ](504.base-7.js)| |
 | 506 | [relative-ranks](506.relative-ranks.js)||
