@@ -1,6 +1,6 @@
 # Leetcode - Javascript - Easy
 
-Currently working on easy leetcode problems, and I have now finished 92 of them (almost 285), while some problems are not supported in Javascript.
+Currently working on easy leetcode problems, and I have now finished 100 of them (almost 285), while some problems are not supported in Javascript.
 
 I see this repository as learning process is algorithm and my self-improvement;
 
@@ -107,6 +107,9 @@ I see this repository as learning process is algorithm and my self-improvement;
 | 405 | [convert-a-number-to-hexadecimal](405.convert-a-number-to-hexadecimal.js)||
 | 409 | [longest-palindrome](409.longest-palindrome.js)||
 | 412 | [fizz-buzz](412.fizz-buzz.js)||
+| 414 | [third-maximum-number](414.third-maximum-number.js)||
+| 415 | [add-strings](415.add-strings.js)|large integer operation|
+| 427 | [construct-quad-tree](427.construct-quad-tree.js)||
 | 504 | [ base-7 ](504.base-7.js)| |
 | 506 | [relative-ranks](506.relative-ranks.js)||
 | 507 | [perfect-number](507.perfect-number.js)||
