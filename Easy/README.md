@@ -14,6 +14,7 @@ I see this repository as learning process is algorithm and my self-improvement;
 * Obejects involved are array, string, stack, tree and listNode;
 * There are algorithms I might use, such as O(n), dp or some else, I should do some research about it;
 * I've been ignoring using concepts such as (foreach, set), should consider more;
+* The rest to learn : bit manipulation, there are 401, 371 related;
 
 
 ## Solution Reference
@@ -96,11 +97,16 @@ I see this repository as learning process is algorithm and my self-improvement;
 | 349 | [intersection-of-two-arrays](349.intersection-of-two-arrays.js)| set is used|
 | 350 | [intersection-of-two-arrays-ii](350.intersection-of-two-arrays-ii.js)||
 | 367 | [valid-perfect-square](367.valid-perfect-square.js)||
+| 371 | [sum-of-two-integers](371.sum-of-two-integers.js)| bit manipulation|
 | 383 | [ransom-note](383.ransom-note.js)||
 | 387 | [first-unique-character-in-a-string](387.first-unique-character-in-a-string.js)||
 | 389 | [find-the-difference](389.find-the-difference.js)||
 | 400 | [nth-digit](400.nth-digit.js)| logic|
-| 371 | [sum-of-two-integers](371.sum-of-two-integers.js)| bit manipulation|
+| 401 | [binary-watch](401.binary-watch.js)||
+| 404 | [sum-of-left-leaves](404.sum-of-left-leaves.js)||
+| 405 | [convert-a-number-to-hexadecimal](405.convert-a-number-to-hexadecimal.js)||
+| 409 | [longest-palindrome](409.longest-palindrome.js)||
+| 412 | [fizz-buzz](412.fizz-buzz.js)||
 | 504 | [ base-7 ](504.base-7.js)| |
 | 506 | [relative-ranks](506.relative-ranks.js)||
 | 507 | [perfect-number](507.perfect-number.js)||
