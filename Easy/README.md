@@ -1,6 +1,6 @@
 # Leetcode - Javascript - Easy
 
-Currently working on easy leetcode problems, and I have now finished 100 of them (almost 285), while some problems are not supported in Javascript.
+This folder includes the mid level problems of Leetcode, using native Javascript language, and I have now finished 100 of them (almost 285), while some problems are not supported in Javascript.
 
 I see this repository as learning process is algorithm and my self-improvement;
 
@@ -18,6 +18,8 @@ I see this repository as learning process is algorithm and my self-improvement;
 
 
 ## Solution Reference
+**There are more ideas in the files below:**
+
 | # | Title | Comment |
 |:---:|:---:|:---:|
 | 1  | [two-sum ](1.two-sum.js)| |
@@ -120,3 +122,18 @@ I see this repository as learning process is algorithm and my self-improvement;
 | 532 | [k-diff-pairs-in-an-array](532.k-diff-pairs-in-an-array.js)||
 | 538 | [convert-bst-to-greater-tree](538.convert-bst-to-greater-tree.js)||
 | 707 | [ design-linked-list ](707.design-linked-list.js) | Obejct design of linked list |
+
+
+## About Me
+
+If you have any hesitate about any question, please do contact me.
+
+```javascript
+const kai = {
+  name: "Kai GAO",
+  email: "kaigaoinau@gmail.com",
+  profession: "Junior Web Developer",
+  location: "Melbourne, VIC, Australia",
+}
+```
+ 
