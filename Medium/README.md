@@ -1,6 +1,6 @@
 # Leetcode - Javascript - Medium
 
-This folder includes the mid level problems of Leetcode, using native Javascript language, and I have now finished 2 of them (about 500), while some problems are not supported in Javascript.
+This folder includes the mid level problems of Leetcode, using native Javascript language, and I have now finished 6 of them (about 500), while some problems are not supported in Javascript.
 
 ## Process
 * My plan is to solve medium problems at least 3 everyday, and no more than 30 mins for each.
@@ -17,6 +17,10 @@ This folder includes the mid level problems of Leetcode, using native Javascript
 |:---:|:---:|:---:|
 | 2 | [add-two-numbers](2.add-two-numbers.js)||
 | 3 | [longest-substring-without-repeating-characters](3.longest-substring-without-repeating-characters.js)||
+| 5 | [longest-palindromic-substring](5.longest-palindromic-substring.js)||
+| 6 | [zig-zag-conversion](6.zig-zag-conversion.js)||
+| 8 | [string-to-integer-atoi](8.string-to-integer-atoi.js)||
+| 11 | [container-with-most-water](11.container-with-most-water.js)||
 
 
 ## About Me
