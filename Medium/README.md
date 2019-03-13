@@ -1,6 +1,6 @@
 # Leetcode - Javascript - Medium
 
-This folder includes the mid level problems of Leetcode, using native Javascript language, and I have now finished 9 of them (about 500), while some problems are not supported in Javascript.
+This folder includes the mid level problems of Leetcode, using native Javascript language, and I have now finished 13 of them (about 500), while some problems are not supported in Javascript.
 
 ## Process
 * My plan is to solve medium problems at least 3 everyday, and no more than 30 mins for each.
@@ -25,7 +25,10 @@ This folder includes the mid level problems of Leetcode, using native Javascript
 | 12 | [integer-to-roman](12.integer-to-roman.js)||
 | 15 | [3-sum](15.3-sum.js)|avoid unnecessary calculation|
 | 16 | [3-sum-closest](16.3-sum-closest.js)||
-
+| 17 | [letter-combinations-of-a-phone-number](17.letter-combinations-of-a-phone-number.js)| classic combination|
+| 18 | [4-sum](18.4-sum.js)||
+| 19 | [remove-nth-node-from-end-of-list](19.remove-nth-node-from-end-of-list.js)||
+| 22 | [generate-parentheses](22.generate-parentheses.js)| backtrack |
 ## About Me
 
 If you have any hesitate about any question, please do contact me.
