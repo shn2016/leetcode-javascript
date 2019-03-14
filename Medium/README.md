@@ -1,6 +1,6 @@
 # Leetcode - Javascript - Medium
 
-This folder includes the mid level problems of Leetcode, using native Javascript language, and I have now finished 13 of them (about 500), while some problems are not supported in Javascript.
+This folder includes the mid level problems of Leetcode, using native Javascript language, and I have now finished 15 of them (about 500), while some problems are not supported in Javascript.
 
 ## Process
 * My plan is to solve medium problems at least 3 everyday, and no more than 30 mins for each.
@@ -29,6 +29,8 @@ This folder includes the mid level problems of Leetcode, using native Javascript
 | 18 | [4-sum](18.4-sum.js)||
 | 19 | [remove-nth-node-from-end-of-list](19.remove-nth-node-from-end-of-list.js)||
 | 22 | [generate-parentheses](22.generate-parentheses.js)| backtrack |
+| 24 | [swap-nodes-in-pairs](24.swap-nodes-in-pairs.js)||
+| 29 | [divide-two-integers](29.divide-two-integers.js)||
 ## About Me
 
 If you have any hesitate about any question, please do contact me.
