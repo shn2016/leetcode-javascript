@@ -1,6 +1,6 @@
 # Leetcode - Javascript - Easy
 
-This folder includes the mid level problems of Leetcode, using native Javascript language, and I have now finished 100 of them (almost 285), while some problems are not supported in Javascript.
+This folder includes the mid level problems of Leetcode, using native Javascript language, and I have now finished 104 of them (almost 285), while some problems are not supported in Javascript.
 
 I see this repository as learning process is algorithm and my self-improvement;
 
@@ -112,6 +112,10 @@ I see this repository as learning process is algorithm and my self-improvement;
 | 414 | [third-maximum-number](414.third-maximum-number.js)||
 | 415 | [add-strings](415.add-strings.js)|large integer operation|
 | 427 | [construct-quad-tree](427.construct-quad-tree.js)||
+| 429 | [n-ary-tree-level-order-traversal](429.n-ary-tree-level-order-traversal.js)||
+| 434 | [number-of-segments-in-a-string](434.number-of-segments-in-a-string.js)||
+| 437 | [path-sum-iii](437.path-sum-iii.js)||
+| 438 | [find-all-anagrams-in-a-string](438.find-all-anagrams-in-a-string.js)|Sliding windows algorithm|
 | 504 | [ base-7 ](504.base-7.js)| |
 | 506 | [relative-ranks](506.relative-ranks.js)||
 | 507 | [perfect-number](507.perfect-number.js)||
