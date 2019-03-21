@@ -46,7 +46,28 @@
  * @param {number[][]} grid
  * @return {number}
  */
+
+
+ // 212ms;
+ // for each row, the 1 can be consistant and can be separate;
 var islandPerimeter = function(grid) {
-    
+  let sum = 0;
+  for(i=0; i< grid.length; i++){
+    // this is store the consistant 1;
+    let count = 0;
+    for(j=0; j< grid[i].length; j++){
+      if(grid[i][j] === 1){
+        count++;
+        if(i !== 0) sum = (grid[i-1][j] === 1)? (sum-2) : sum;
+      }
+      //for the seperate situation.
+      if(grid[i][j] === 0 && count !== 0){
+        sum += count * 2 + 2;
+        count = 0;
+      }
+    }
+    sum += (count ===0)? 0 : (count * 2 + 2);
+  }
+  return sum;
 };
 

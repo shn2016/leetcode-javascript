@@ -6,7 +6,7 @@ And it is using [VS code - leetcode](https://github.com/jdneo/vscode-leetcode)
 ## Process
 
 According to leetcode, the difficulty of problems can be divided into:
-* [Easy](./Easy/README.md): finished 100 problems.
+* [Easy](./Easy/README.md): finished  more than 100 problems.
 * [Medium](./Medium/README.md): currently working on.
 * Hard
 
