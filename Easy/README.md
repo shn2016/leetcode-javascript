@@ -1,6 +1,6 @@
 # Leetcode - Javascript - Easy
 
-This folder includes the mid level problems of Leetcode, using native Javascript language, and I have now finished 121 of them (almost 285), while some problems are not supported in Javascript.
+This folder includes the mid level problems of Leetcode, using native Javascript language, and I have now finished 126 of them (almost 285), while some problems are not supported in Javascript.
 
 I see this repository as learning process is algorithm and my self-improvement;
 
@@ -142,6 +142,11 @@ I see this repository as learning process is algorithm and my self-improvement;
 | 530 | [minimum-absolute-difference-in-bst](530.minimum-absolute-difference-in-bst.js)||
 | 532 | [k-diff-pairs-in-an-array](532.k-diff-pairs-in-an-array.js)||
 | 538 | [convert-bst-to-greater-tree](538.convert-bst-to-greater-tree.js)||
+| 541 | [reverse-string-ii](541.reverse-string-ii.js)||
+| 543 | [diameter-of-binary-tree](543.diameter-of-binary-tree.js)||
+| 551 | [student-attendance-record-i](551.student-attendance-record-i.js)||
+| 557 | [reverse-words-in-a-string-iii](557.reverse-words-in-a-string-iii.js)||
+| 558 | [quad-tree-intersection](558.quad-tree-intersection.js)| No UX at all|
 | 707 | [ design-linked-list ](707.design-linked-list.js) | Obejct design of linked list |
 
 
