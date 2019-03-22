@@ -1,6 +1,6 @@
 # Leetcode - Javascript - Easy
 
-This folder includes the mid level problems of Leetcode, using native Javascript language, and I have now finished 115 of them (almost 285), while some problems are not supported in Javascript.
+This folder includes the mid level problems of Leetcode, using native Javascript language, and I have now finished 121 of them (almost 285), while some problems are not supported in Javascript.
 
 I see this repository as learning process is algorithm and my self-improvement;
 
@@ -127,6 +127,12 @@ I see this repository as learning process is algorithm and my self-improvement;
 | 476 | [number-complement](476.number-complement.js)||
 | 463 | [island-perimeter](463.island-perimeter.js)||
 | 475 | [heaters](475.heaters.js)||
+| 482 | [license-key-formatting](482.license-key-formatting.js)||
+| 485 | [max-consecutive-ones](485.max-consecutive-ones.js)||
+| 492 | [construct-the-rectangle](492.construct-the-rectangle.js)||
+| 496 | [next-greater-element-i](496.next-greater-element-i.js)||
+| 500 | [keyboard-row](500.keyboard-row.js)||
+| 501 | [find-mode-in-binary-search-tree](501.find-mode-in-binary-search-tree.js)||
 | 504 | [ base-7 ](504.base-7.js)| |
 | 506 | [relative-ranks](506.relative-ranks.js)||
 | 507 | [perfect-number](507.perfect-number.js)||
