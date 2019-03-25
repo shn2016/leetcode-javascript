@@ -1,6 +1,6 @@
 # Leetcode - Javascript - Easy
 
-This folder includes the mid level problems of Leetcode, using native Javascript language, and I have now finished 126 of them (almost 285), while some problems are not supported in Javascript.
+This folder includes the mid level problems of Leetcode, using native Javascript language, and I have now finished 135 of them (almost 285), while some problems are not supported in Javascript.
 
 I see this repository as learning process is algorithm and my self-improvement;
 
@@ -147,12 +147,21 @@ I see this repository as learning process is algorithm and my self-improvement;
 | 551 | [student-attendance-record-i](551.student-attendance-record-i.js)||
 | 557 | [reverse-words-in-a-string-iii](557.reverse-words-in-a-string-iii.js)||
 | 558 | [quad-tree-intersection](558.quad-tree-intersection.js)| No UX at all|
+| 559 | [maximum-depth-of-n-ary-tree](559.maximum-depth-of-n-ary-tree.js)||
+| 561 | [array-partition-i](561.array-partition-i.js)||
+| 563 | [binary-tree-tilt](563.binary-tree-tilt.js)||
+| 566 | [reshape-the-matrix](566.reshape-the-matrix.js)||
+| 572 | [subtree-of-another-tree](572.subtree-of-another-tree.js)||
+| 575 | [distribute-candies](575.distribute-candies.js)||
+| 581 | [shortest-unsorted-continuous-subarray](581.shortest-unsorted-continuous-subarray.js)||
+| 589 | [n-ary-tree-preorder-traversal](589.n-ary-tree-preorder-traversal.js)||
+| 590 | [n-ary-tree-postorder-traversal](590.n-ary-tree-postorder-traversal.js)||
 | 707 | [ design-linked-list ](707.design-linked-list.js) | Obejct design of linked list |
 
 
 ## About Me
 
-If you have any hesitate about any question, please do contact me.
+If you have any hesitation about any question, please do contact me.
 
 ```javascript
 const kai = {
