@@ -1,6 +1,6 @@
 # Leetcode - Javascript - Easy
 
-This folder includes the mid level problems of Leetcode, using native Javascript language, and I have now finished 140 of them (almost 285), while some problems are not supported in Javascript.
+This folder includes the mid level problems of Leetcode, using native Javascript language, and I have now finished 143 of them (almost 285), while some problems are not supported in Javascript.
 
 I see this repository as learning process is algorithm and my self-improvement;
 
@@ -161,6 +161,10 @@ I see this repository as learning process is algorithm and my self-improvement;
 | 598 | [range-addition-ii](598.range-addition-ii.js)||
 | 599 | [minimum-index-sum-of-two-lists](599.minimum-index-sum-of-two-lists.js)||
 | 605 | [can-place-flowers](605.can-place-flowers.js)||
+| 606 | [construct-string-from-binary-tree](606.construct-string-from-binary-tree.js)||
+| 617 | [merge-two-binary-trees](617.merge-two-binary-trees.js)||
+| 628 | [maximum-product-of-three-numbers](628.maximum-product-of-three-numbers.js)||
+| 633 | [sum-of-square-numbers](633.sum-of-square-numbers.js)||
 | 707 | [ design-linked-list ](707.design-linked-list.js) | Obejct design of linked list |
 
 
