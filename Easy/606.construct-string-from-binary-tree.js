@@ -63,11 +63,12 @@
  * @return {string}
  */
 // the return should be string, and there are 4 situations.
+// remove some toString function and the proficency increased a lot;
 var tree2str = function(t) {
   if(!t) return "";
-  if(!t.left && !t.right) return  t.val.toString();
-  if(!t.left && !!t.right) return  t.val.toString() + "()(" + tree2str(t.right) + ")";
-  if(!!t.left && !t.right) return  t.val.toString() + "(" + tree2str(t.left) + ")";
-  return t.val.toString() + "("+  tree2str(t.left) + ")(" + tree2str(t.right) + ")";
+  if(!t.left && !t.right) return  t.val +"";
+  if(!t.left && !!t.right) return  t.val + "()(" + tree2str(t.right) + ")";
+  if(!!t.left && !t.right) return  t.val + "(" + tree2str(t.left) + ")";
+  return t.val + "("+  tree2str(t.left) + ")(" + tree2str(t.right) + ")";
 };
 
