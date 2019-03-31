@@ -1,6 +1,6 @@
 # Leetcode - Javascript - Easy
 
-This folder includes the mid level problems of Leetcode, using native Javascript language, and I have now finished 145 of them (almost 285), while some problems are not supported in Javascript.
+This folder includes the mid level problems of Leetcode, using native Javascript language, and I have now finished 150 of them (almost 285), while some problems are not supported in Javascript.
 
 I see this repository as learning process is algorithm and my self-improvement;
 
@@ -167,6 +167,11 @@ I see this repository as learning process is algorithm and my self-improvement;
 | 633 | [sum-of-square-numbers](633.sum-of-square-numbers.js)||
 | 637 | [average-of-levels-in-binary-tree](637.average-of-levels-in-binary-tree.js)||
 | 643 | [maximum-average-subarray-i](643.maximum-average-subarray-i.js)||
+| 645 | [set-mismatch](645.set-mismatch.js)||
+| 653 | [two-sum-iv-input-is-a-bst](653.two-sum-iv-input-is-a-bst.js)||
+| 657 | [robot-return-to-origin](657.robot-return-to-origin.js)||
+| 661 | [image-smoother](661.image-smoother.js)||
+| 665 | [non-decreasing-array](665.non-decreasing-array.js)||
 | 707 | [ design-linked-list ](707.design-linked-list.js) | Obejct design of linked list |
 
 

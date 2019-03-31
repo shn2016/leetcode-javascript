@@ -67,3 +67,16 @@ var a = function(nums, k) {
   return sum / k;
 };
 
+const findTarget = function(root, k) {
+  let memo = new Set();
+  const dfs = function(node){
+    if(node == null) return false;
+
+    if(memo.has(node.val)) return true;
+    memo.add(k - node.val);
+    
+    return dfs(node.left) || dfs(node.right);
+  }
+  
+  return dfs(root);
+};
