@@ -172,6 +172,8 @@ I see this repository as learning process is algorithm and my self-improvement;
 | 657 | [robot-return-to-origin](657.robot-return-to-origin.js)||
 | 661 | [image-smoother](661.image-smoother.js)||
 | 665 | [non-decreasing-array](665.non-decreasing-array.js)||
+| 669 | [trim-a-binary-search-tree](669.trim-a-binary-search-tree.js)|classic recursion|
+| 671 | [second-minimum-node-in-a-binary-tree](671.second-minimum-node-in-a-binary-tree.js)|classic recursion|
 | 707 | [ design-linked-list ](707.design-linked-list.js) | Obejct design of linked list |
 
 
@@ -182,8 +184,8 @@ If you have any hesitation about any question, please do contact me.
 ```javascript
 const kai = {
   name: "Kai GAO",
-  email: "kaigaoinau@gmail.com",
-  profession: "Junior Web Developer",
+  email: "kaigao.dev@gmail.com",
+  profession: "Full Stack Developer",
   location: "Melbourne, VIC, Australia",
 }
 ```
